@@ -1,0 +1,43 @@
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+
+/* border: 1px solid red; */
+}
+
+#todoinput{
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    margin-right: 50px;
+    width: 250px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+#todobtn{
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+#round{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 5px solid rgb(84, 35, 216);
+    
+}
+#title{
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    width: 200px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 10px;
+}
